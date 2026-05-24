@@ -12,3 +12,8 @@ ggplot(mtcars, aes(x = factor(cyl))) +
        x = "Number of Cylinders",
        y = "Count")
 
+#Added Histogram
+hist(mtcars$mpg,
+     main = "Distribution of Miles Per Gallon",
+     xlab = "Miles Per Gallon",
+     col = "lightblue")
